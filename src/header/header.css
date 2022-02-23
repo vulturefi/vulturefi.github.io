@@ -1,0 +1,27 @@
+
+.title {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    min-height: 77px;
+  }
+
+.logo {
+    height: 77px;
+    left: 0;
+    object-fit: cover;
+    top: 0;
+}
+
+.header {
+    height: 102px;
+    margin-top: 25px;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+

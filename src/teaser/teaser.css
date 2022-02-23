@@ -1,0 +1,65 @@
+
+
+.teaser-column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+    position: relative;
+}
+
+.overlap-group {
+    margin-top: 25px;
+    position: relative;
+    width: max-content;
+}
+
+.primary-logo {
+    height: 500px;
+}
+
+.stableswap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: max-content;
+    align-items: center;
+    position: absolute;
+    top: 425px;
+}
+
+.stableswap {
+    color: white;
+    font-family: 'Risque', cursive;;
+    font-size: xx-large;
+    font-weight: 400;
+    letter-spacing: 0;
+    object-fit: contain;
+}
+
+.moonbeam {
+    object-fit: contain;
+    max-height: 70px;
+}
+
+.coming-soon {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: xx-large;
+    font-weight: 400;
+    letter-spacing: 40.64px;
+    position: absolute;
+    top: 350px;
+    width: max-content
+}
+
+.low-slippage {
+    letter-spacing: 0;
+    min-height: 35px;
+    color: white;
+    font-family: 'Red Rose', cursive;;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+}
