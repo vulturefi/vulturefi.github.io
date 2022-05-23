@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.13498eeb.chunk.js",
-    "main.js.map": "/static/js/main.13498eeb.chunk.js.map",
+    "main.js": "/static/js/main.e3bac1c2.chunk.js",
+    "main.js.map": "/static/js/main.e3bac1c2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.24ed72c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.24ed72c0.js.map",
     "static/css/2.2c41347c.chunk.css": "/static/css/2.2c41347c.chunk.css",
@@ -16,7 +16,6 @@
     "static/media/coming-soon-banner.f1b434bf.svg": "/static/media/coming-soon-banner.f1b434bf.svg",
     "static/media/copyright-icon.77a1b84f.svg": "/static/media/copyright-icon.77a1b84f.svg",
     "static/media/discord.80fa5ad8.svg": "/static/media/discord.80fa5ad8.svg",
-    "static/media/founder-of-moonbeam.50ab3cb3.png": "/static/media/founder-of-moonbeam.50ab3cb3.png",
     "static/media/fragmented-liquidity.00331171.svg": "/static/media/fragmented-liquidity.00331171.svg",
     "static/media/hand.4145e3fe.svg": "/static/media/hand.4145e3fe.svg",
     "static/media/incentive-mechanisms.3fc88ff1.svg": "/static/media/incentive-mechanisms.3fc88ff1.svg",
@@ -24,7 +23,6 @@
     "static/media/lowest-slippage.7da71d0f.svg": "/static/media/lowest-slippage.7da71d0f.svg",
     "static/media/medium.609833e5.svg": "/static/media/medium.609833e5.svg",
     "static/media/missing-primitive.1e13ff05.svg": "/static/media/missing-primitive.1e13ff05.svg",
-    "static/media/moonbeam-foundation-logo.68237a91.svg": "/static/media/moonbeam-foundation-logo.68237a91.svg",
     "static/media/moonbeam-logo.8c8da84c.svg": "/static/media/moonbeam-logo.8c8da84c.svg",
     "static/media/moonriver-logo.fed2aec4.svg": "/static/media/moonriver-logo.fed2aec4.svg",
     "static/media/nft-reward.dd2f6b05.svg": "/static/media/nft-reward.dd2f6b05.svg",
@@ -40,6 +38,6 @@
     "static/js/runtime-main.24ed72c0.js",
     "static/css/2.2c41347c.chunk.css",
     "static/js/2.ccda8288.chunk.js",
-    "static/js/main.13498eeb.chunk.js"
+    "static/js/main.e3bac1c2.chunk.js"
   ]
 }
