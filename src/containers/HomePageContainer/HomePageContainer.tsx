@@ -21,6 +21,7 @@ import DiscordLogo from 'assets/social/discord.svg'
 import TelegramLogo from 'assets/social/telegram.svg'
 import TwitterLogo from 'assets/social/twitter.svg'
 import MediumLogo from 'assets/social/medium.svg'
+import ComingSoonBannerInverted from 'assets/icons/coming-soon-banner-inverted.svg'
 import { 
     VerticalCard, 
     VerticalCardItem, 
@@ -247,22 +248,41 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                     <SectionItem
                         padding={!isMdDevice ? "0px 0px 120px 0px" : "0px 0px 60px 0px" }
                     >
+                        <Box
 
-                        <AppButton 
-                            customVariant="primary-no-grad" 
-                            fullWidth 
-                            sx={{
-                                maxHeight: (!isMdDevice ? '50px' : (!isSmDevice ? '40px' : '30px')),
-                                fontSize: (!isSmDevice ? '1rem' : '0.8rem'),
+                            style={{
+                                position: "relative",
+                                width: "fit-content",
                                 margin: "0px 10px",
-                                padding: "15px 15px",
-                                borderRadius: '30px',
-                                maxWidth: 'fit-content',
+                                whiteSpace: 'nowrap',
+                                pointerEvents: 'none'
                             }}
-                            onClick={() => (navigate('/app'))}
+
                         >
-                            Get Started
-                        </AppButton>
+                            <img 
+                                src={ComingSoonBannerInverted} 
+                                height={!isMdDevice ? '44px' : (!isSmDevice ? '36px' : '28px')}
+                                style={{
+                                    zIndex: 10,
+                                    position: 'absolute',
+                                    left: 2,
+                                }}
+                            />
+                            <AppButton 
+                                customVariant="primary-no-grad" 
+                                fullWidth 
+                                sx={{
+                                    maxHeight: (!isMdDevice ? '50px' : (!isSmDevice ? '40px' : '30px')),
+                                    fontSize: (!isSmDevice ? '1rem' : '0.8rem'),
+                                    padding: "15px 15px",
+                                    borderRadius: '30px',
+                                    maxWidth: 'fit-content',
+                                }}
+                                >
+                                Get Started
+                            </AppButton>
+                        </Box>
+
                         <AppButton
                             fullWidth
                             customVariant="neutral"
