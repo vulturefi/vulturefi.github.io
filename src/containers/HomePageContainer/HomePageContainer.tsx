@@ -449,42 +449,6 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                 >
                     <img src={RoadmapGraphic} width={!isMdDevice ? '800' : (!isSmDevice ? '450' : '300' ) }/>
                 </Section>
-                <Section
-                    heading={
-                        <>
-                            <Box display="flex" flexDirection="row">
-                                <SectionHeadingHighlighted text = 'Backed' style={{margin:'0px 8px'}}/>
-                                <SectionHeading text = 'By'/>
-                            </Box>
-
-                        </>
-                    }
-                >
-                    <VerticalCard>
-                        <VerticalCardItem>
-                            <img src={FounderOfMoonbeam} />
-                        </VerticalCardItem>
-                        <VerticalCardItem>
-                            <SubHeading text="Derek Yoo" />
-                        </VerticalCardItem>
-                        <VerticalCardItem>
-                            <SectionSubHeading text="Founder Of Moonbeam" />
-                        </VerticalCardItem>
-                    </VerticalCard>
-                </Section>
-                <Section
-                    heading={
-                        <>
-                            <Box display="flex" flexDirection="row">
-                                <SectionHeadingHighlighted text = 'Supported' style={{margin:'0px 8px'}}/>
-                                <SectionHeading text = 'By'/>
-                            </Box>
-                        </>
-                    }
-                >
-                    <img src={MoonbeamFoundationLogo} width={!isMdDevice ? '550px' : '300px'}/>
-                    
-                </Section>
                 {/* <Section
                     heading={
                         <>
