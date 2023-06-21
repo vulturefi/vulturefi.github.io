@@ -3,6 +3,7 @@ import TwitterIcon from "assets/lottie-icons/TwitterIcon";
 import React, { ReactElement, useEffect } from "react";
 import VultureLightLogo from '../../assets/companyLogos/vulture-light.svg'
 import MoonbeamLogo from '../../assets/companyLogos/moonbeam-logo.svg'
+import TanssiLogo from '../../assets/companyLogos/Tanssi.png'
 import MoonriverLogo from '../../assets/companyLogos/moonriver-logo.svg'
 import MoonbeamFoundationLogo from 'assets/companyLogos/moonbeam-foundation-logo.svg'
 import AppButton from "components/buttons/AppButton/AppButton"
@@ -22,14 +23,14 @@ import TelegramLogo from 'assets/social/telegram.svg'
 import TwitterLogo from 'assets/social/twitter.svg'
 import MediumLogo from 'assets/social/medium.svg'
 import ComingSoonBannerInverted from 'assets/icons/coming-soon-banner-inverted.svg'
-import { 
-    VerticalCard, 
-    VerticalCardItem, 
-    VerticalCardHeading, 
-    HorizontalCard, 
-    HorizontalCardItem, 
-    IconContainer, 
-    Container, 
+import {
+    VerticalCard,
+    VerticalCardItem,
+    VerticalCardHeading,
+    HorizontalCard,
+    HorizontalCardItem,
+    IconContainer,
+    Container,
     SectionContainer,
     HeadingContainer,
     SubHeadingContainer,
@@ -133,7 +134,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
             justifyContent="flex-start"
             alignItems="center"
             position="relative"
-            
+
         >
                 <HeadingContainer
                     id={id}
@@ -155,7 +156,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                         position="relative"
                         padding={isMdDevice ? '50px 0px' : '150px 0px' }
                     >
-                        
+
                         <img
                             src={VultureLightLogo}
                             alt="Vulture logo"
@@ -165,7 +166,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                 ) : (
                     <></>
                 )}
-            </Box> 
+            </Box>
         )
     }
 
@@ -199,7 +200,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
             }, 0);
           }
         }, [pathname, hash, key]);
-        
+
         return (
             <Box
                 display="flex"
@@ -208,7 +209,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                 alignItems="center"
                 position="relative"
                 padding={!isMdDevice ? "50px 0px" : "50px 0px"}
-            >   
+            >
                 <Container>
                 <Section
                     heading={
@@ -220,7 +221,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                     subHeading={
                         <SectionSubHeading text= 'Single sided AMM designed to efficiently exchange stable cryptocurrencies.' />
                     }
-                >  
+                >
                     <SectionContainer>
                     <SubHeadingContainer
                         fontSize= {!isMdDevice ? '25px' : '15px'}
@@ -237,13 +238,12 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                             width='unset'
                             padding='unset'
                         >
-                            <SectionSubHeading 
+                            <SectionSubHeading
                                 text = 'Built For:'
                             />
-                        </SubHeadingContainer> 
+                        </SubHeadingContainer>
 
-                        <img src={MoonbeamLogo} width={!isMdDevice ? '160' : (!isSmDevice ? '120' : '100')} />
-                        <img src={MoonriverLogo} width={!isMdDevice ? '160' : (!isSmDevice ? '120' : '100')} />
+                        <img src={TanssiLogo} width={!isMdDevice ? '160' : (!isSmDevice ? '120' : '100')} />
                     </SectionItem>
                     <SectionItem
                         padding={!isMdDevice ? "0px 0px 120px 0px" : "0px 0px 60px 0px" }
@@ -259,8 +259,8 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                             }}
 
                         >
-                            <img 
-                                src={ComingSoonBannerInverted} 
+                            <img
+                                src={ComingSoonBannerInverted}
                                 height={!isMdDevice ? '44px' : (!isSmDevice ? '36px' : '28px')}
                                 style={{
                                     zIndex: 10,
@@ -268,9 +268,9 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                                     left: 2,
                                 }}
                             />
-                            <AppButton 
-                                customVariant="primary-no-grad" 
-                                fullWidth 
+                            <AppButton
+                                customVariant="primary-no-grad"
+                                fullWidth
                                 sx={{
                                     maxHeight: (!isMdDevice ? '50px' : (!isSmDevice ? '40px' : '30px')),
                                     fontSize: (!isSmDevice ? '1rem' : '0.8rem'),
@@ -364,10 +364,10 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                         <>
                             { isMdDevice ? (
                                 <>
-                                    
+
                                     <Box display="flex" flexDirection="row">
                                         <SectionHeading text = 'How is' style={{margin:'0px 8px'}}/>
-                                        <SectionHeadingHighlighted text = ' Vulture'/>  
+                                        <SectionHeadingHighlighted text = ' Vulture'/>
                                     </Box>
                                     <SectionHeading text = 'different ? '/>
                                 </>
@@ -544,8 +544,8 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                         </VerticalCard>
 
                     </Box>
-                
-                    
+
+
                 </Section> */}
                 <Section
                     heading={
@@ -562,7 +562,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                     <Box display="flex" flexDirection="row" alignItems={"center"} padding="0px 0px 50px 0px">
                         <IconContainer>
                             <a target="_blank" rel="noopener noreferrer" href="https://t.me/vulturefi">
-                                <img 
+                                <img
                                     src={TelegramLogo}
                                     height={!isMdDevice ? '60px' : '30px'}
                                 />
@@ -570,7 +570,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                         </IconContainer>
                         <IconContainer>
                             <a target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/G3dDJDcStW">
-                                <img 
+                                <img
                                     src={DiscordLogo}
                                     height={!isMdDevice ? '60px' : '30px'}
                                 />
@@ -578,7 +578,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                         </IconContainer>
                         <IconContainer>
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Vulturefi">
-                                <img 
+                                <img
                                     src={TwitterLogo}
                                     height={!isMdDevice ? '60px' : '30px'}
                                 />
@@ -586,7 +586,7 @@ function Section({ sectionBreak=true, children, heading, subHeading, id}: Sectio
                         </IconContainer>
                         <IconContainer>
                             <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@vulturefi">
-                                <img 
+                                <img
                                     src={MediumLogo}
                                     height={!isMdDevice ? '60px' : '30px'}
                                 />
